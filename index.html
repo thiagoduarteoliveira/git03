@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>The Band</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/6/w3.css">
+<script src="https://www.w3schools.com/lib/w3.js"></script>
+
+<body id="home" class="w3-content">
+
+<!-- Navigation (Stays on Top) -->
+<div class="w3-top w3-bar w3-black">
+<a href="#home" class="w3-bar-item w3-button">Home</a>
+<a href="#about" class="w3-bar-item w3-button">About</a>
+<a href="#members" class="w3-bar-item w3-button">Members</a>
+<a href="#contact" class="w3-bar-item w3-button">Contact</a>
+</div>
+
+<!-- Slides -->
+<img class="slides" src="img_la.jpg" width="100%">
+<img class="slides" src="img_ny.jpg" width="100%">
+<img class="slides" src="img_ch.jpg" width="100%">
+
+<script>
+w3.slideshow(".slides", 1500);
+</script>
+
+<!-- About -->
+<section id="about" class="w3-container w3-padding-32">
+
+<h1 class="w3-center">The Band</h1>
+<p>This is our band website. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+
+</section>
+
+<!-- Members -->
+<section id="members" class="w3-container w3-padding-32">
+
+<h2 class="w3-center">Band Members</h2>
+
+<div class="w3-grid w3-center"
+style="grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:16px">
+
+  <div>
+    <img src="img_bandmember.jpg"
+    alt="John" style="width:60%">
+    <p>John</p>
+  </div>
+
+  <div>
+    <img src="img_bandmember.jpg"
+    alt="Paul" style="width:60%">
+    <p>Paul</p>
+  </div>
+
+  <div>
+    <img src="img_bandmember.jpg"
+    alt="Lisa" style="width:60%">
+    <p>Lisa</p>
+  </div>
+
+</div>
+
+</section>
+
+<!-- Contact -->
+<section id="contact" class="w3-container w3-center w3-padding-32">
+
+<h2 class="w3-wide">CONTACT</h2>
+<p>Chicago, US</p>
+<p>Phone: +00 151515</p>
+<p>Email: mail@mail.com</p>
+
+<p class="w3-opacity"><i>Fan? Drop a note!</i></p>
+
+<form action="/action_page.php" target="_blank">
+  <input class="w3-input" type="text" placeholder="Name" required name="Name">
+  <input class="w3-input" type="email" placeholder="Email" required name="Email">
+  <input class="w3-input" type="text" placeholder="Message" required name="Message">
+  <p>
+  <button class="w3-button w3-black" type="submit">SEND</button>
+  </p>
+</form>
+
+<img src="map.jpg" alt="Map" style="width:100%">
+<p class="w3-center w3-padding">Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank">w3.css</a></p>
+
+</section>
+
+</body>
+</html>
