@@ -24,3 +24,6 @@ jobs:
 
       - name: Finalizar testes
         run: echo "Todos os testes passaram!"
+
+      - name: Executar testes  automatizados em Python
+        run: python3 teste_site.py
